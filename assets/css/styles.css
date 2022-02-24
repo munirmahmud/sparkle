@@ -1,5 +1,43 @@
+/**
+* URL: htts:bdtask.com
+* Company Name: bdtask
+* Author: Munir Mahmud
+* Email: munirmahmud6@gmail.com
+* 
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    color: #707070;
+}
+
+p {
+    line-height: 2.2;
+}
+
+.bt-btn {
+    border: 1px;
+    border-style: solid;
+    border-color: transparent;
+
+    font-size: 10px;
+    background-color: #ffe500;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    padding: 18px 35px;
+    transition: all 300ms ease-in-out;
+}
+.bt-btn:hover {
+    border-color: #ffe500;
+    background-color: #1a1a1a;
+    color: white;
+}
+
 .hero-section {
-    background-color: #444;
+    background-color: #1a1a1a;
 }
 
 .menu-icon {
@@ -8,7 +46,7 @@
     margin-left: auto;
 }
 .menu-icon span {
-    background-color: yellow;
+    background-color: #ffe500;
     width: 100%;
     height: 2px;
     display: block;
@@ -27,10 +65,69 @@
 /* HERO */
 .hero {
     height: 400px;
+    position: relative;
 }
 .hero .row {
     height: 100%;
 }
 .hero-content {
     height: 100%;
+    color: white;
+}
+.hero-content h1 {
+    font-size: 20px;
+    letter-spacing: 15px;
+    margin-bottom: 25px;
+}
+.hero-content p {
+    margin-bottom: 35px;
+    font-size: 13px;
+}
+.hero .arrow-down {
+    position: absolute;
+    bottom: 16px;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.hero .arrow-down:hover {
+    bottom: 22px;
+}
+
+/* ABOUT */
+.about {
+    padding: 100px 0;
+    background-color: #fff;
+}
+.about img {
+    margin-bottom: 60px;
+}
+
+.services {
+    background-color: #f4f4f4;
+    padding-top: 80px;
+}
+.heading {
+    margin-bottom: 80px;
+}
+.heading img {
+    margin-bottom: 30px;
+}
+.heading h2 {
+    margin-bottom: 25px;
+    color: #1b1b1b;
+    font-size: 20px;
+    letter-spacing: 12px;
+}
+
+/* SERVICE */
+.service-card {
+    background-color: #fff;
+    padding: 35px 20px 20px;
+    margin-bottom: 25px;
+}
+.service-card-footer {
+    background-color: #fff;
+    padding: 20px;
 }
