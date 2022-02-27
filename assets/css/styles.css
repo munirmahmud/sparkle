@@ -132,6 +132,9 @@ p {
     padding: 20px;
 }
 
+.service-line {
+    margin-bottom: 18px;
+}
 .service-line h5 {
     font-size: 13px;
     font-weight: 700;
