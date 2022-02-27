@@ -131,3 +131,18 @@ p {
     background-color: #fff;
     padding: 20px;
 }
+
+.service-line h5 {
+    font-size: 13px;
+    font-weight: 700;
+}
+.service-line-bg {
+    background-color: #f4f4f4;
+    height: 8px;
+    width: 100%;
+}
+.service-line-front-bg {
+    background-color: #ffe500;
+    height: 8px;
+    width: 100%;
+}
