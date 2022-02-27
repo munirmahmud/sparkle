@@ -122,6 +122,9 @@ p {
 }
 
 /* SERVICE */
+.service-content-wrapper {
+    margin-bottom: 40px;
+}
 .service-card {
     background-color: #fff;
     padding: 35px 20px 20px;
@@ -147,5 +150,23 @@ p {
 .service-line-front-bg {
     background-color: #ffe500;
     height: 8px;
-    width: 100%;
+}
+
+
+/* PROJECTS CARD */
+.projects-card-wrapper {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.projects-card-wrapper .card {
+    border-radius: 0;
+    background-color: pink;
+}
+.project-card h4 {
+    font-size: 15px;
+    margin-bottom: 6px;
+}
+.project-card p {
+    font-size: 13px;
+    margin-bottom: 0;
 }
