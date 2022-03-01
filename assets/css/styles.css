@@ -17,6 +17,9 @@ body {
 p {
     line-height: 2.2;
 }
+img {
+    /* width: 100%; */
+}
 
 .bt-btn {
     border: 1px;
@@ -160,7 +163,7 @@ p {
 }
 .projects-card-wrapper .card {
     border-radius: 0;
-    background-color: pink;
+    background-color: #fff;
 }
 .project-card h4 {
     font-size: 15px;
@@ -169,4 +172,39 @@ p {
 .project-card p {
     font-size: 13px;
     margin-bottom: 0;
+}
+
+
+/* PORTFOLIO */
+.portfolio {
+    padding-top: 80px;
+}
+.portfolio-names {
+    border-top: 1px solid #1b1b1b;
+    border-bottom: 1px solid #1b1b1b;
+    font-size: 13px; /*1rem = 16px */    
+    color: #1b1b1b;
+    font-weight: 500;
+}
+.portfolio-card img {
+    width: 100%;
+}
+
+.portfolio-card {
+    transition: all 1s ease-in-out;
+}
+.hover-content {
+    visibility: hidden;
+}
+.portfolio-card:hover .hover-content {
+    visibility: visible;
+}
+
+.hover-content h3 {
+    font-size: 13px;
+    font-weight: 500;
+}
+.hover-content p {
+    font-size: 12px;
+    line-height: 1.5;
 }
